@@ -1,0 +1,79 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+}
+
+.home-container-inner {
+  width: 100%;
+  max-width: 1100px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.hero-left {
+  max-width: 650px;
+}
+
+.hero-intro-row {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+
+  flex-wrap: wrap;
+}
+
+.hero-kicker,
+.hero-name,
+.hero-role {
+  margin: 0;
+}
+
+.hero-right {
+  flex-shrink: 0;
+}
+
+.hero-description {
+  max-width: 450px;
+  margin: 0;
+}
+
+.download-btn {
+  text-decoration: none;
+  color: inherit;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+.projects-overview {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.see-all-projects {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  text-decoration: none;
+  color: inherit;
+}
+
+.see-all-projects:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+}
