@@ -8,6 +8,7 @@ html,
 .app {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: clamp(24px, 4vh, 48px);
 }
 
@@ -34,9 +35,6 @@ html,
     align-items: center;
     text-align: center;
   }
-  .connect-links {
-    justify-content: center;
-  }
 }
 
 @media (max-width: 768px) {
@@ -46,7 +44,8 @@ html,
     align-items: flex-start;
     gap: 24px;
   }
-  .footer-section {
+  .footer-section,
+  .header-section {
     gap: 8px;
   }
 }

@@ -25,9 +25,9 @@ function Header({ theme, setMode, mode }) {
         <img
           src="/my_photo.jpeg"
           alt="ortrait of Cynthia Monkap"
-          className="profile-photo"
+          className="profile-photo header-section"
         />
-        <div className="header-btn-container">
+        <div className="header-btn-container header-section">
           <Link
             to="/"
             className="link"
@@ -35,7 +35,6 @@ function Header({ theme, setMode, mode }) {
               color: theme.textPrimary,
               fontSize: typography.size.sm,
               fontWeight: typography.weight.bold,
-              background: theme.elevated,
             }}
           >
             Home
@@ -47,14 +46,13 @@ function Header({ theme, setMode, mode }) {
               color: theme.textPrimary,
               fontSize: typography.size.sm,
               fontWeight: typography.weight.bold,
-              background: theme.elevated,
             }}
           >
             Projects
           </Link>
         </div>
         <button
-          className="toggle-btn"
+          className="toggle-btn header-section"
           onClick={toggle}
           aria-label="Toggle dark mode"
         >

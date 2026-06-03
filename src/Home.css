@@ -13,6 +13,7 @@
 
 .hero-top {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   gap: 30px;
@@ -60,15 +61,19 @@
 
 .projects-overview {
   display: flex;
-  gap: 20px;
+  flex-direction: row;
+  gap: 5px;
   flex-wrap: wrap;
 }
 
 .see-all-projects {
   display: inline-flex;
   align-items: center;
+  height: 20px;
+  align-self: center;
   gap: 8px;
-
+  border-radius: 20px;
+  padding: 5px;
   text-decoration: none;
   color: inherit;
 }
@@ -76,4 +81,23 @@
 .see-all-projects:hover {
   opacity: 1;
   transform: translateY(-1px);
+  font-weight: bold;
+}
+
+@media (width < 350px) {
+  .hero-top {
+    gap: 0px;
+  }
+  .download-btn {
+    padding: 6px 0px;
+  }
+  .home-container-inner {
+    gap: 20px;
+  }
+}
+
+@media (width < 500px) {
+  .projects-overview {
+    flex-direction: column;
+  }
 }

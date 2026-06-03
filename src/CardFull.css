@@ -1,0 +1,114 @@
+.card-full {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 320px;
+
+  height: 420px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.card-full:hover {
+  transform: translateY(-3px);
+}
+
+.card-full-head {
+  height: 160px;
+  background: rgba(0, 0, 0, 0.03);
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.card-full-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-full-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.card-full-project-desc {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  opacity: 0.85;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+
+  overflow: hidden;
+}
+
+.card-full-body-top {
+  padding: 10px 12px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  overflow: hidden;
+}
+
+.card-full-body-bottom {
+  padding: 0 12px 12px;
+}
+
+.card-full-type {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card-full-type-svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+  color: inherit;
+}
+
+.card-full-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag-chip {
+  font-size: 0.7rem;
+  padding: 4px 8px;
+  border-radius: 999px;
+
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+
+  opacity: 0.9;
+}
+
+.card-full-footer {
+  margin-top: auto;
+  padding: 10px 12px;
+
+  display: flex;
+  gap: 10px;
+}
+
+.card-full-footer button {
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+
+  transition: transform 0.2s ease;
+}
+
+.card-full-footer button:hover {
+  transform: translateY(-2px);
+}
