@@ -1,4 +1,5 @@
 import "./Home.css";
+import { ProjectsList } from "./ProjectsList";
 import Card from "./Card";
 import { FaArrowRight } from "react-icons/fa6";
 import { typography } from "./typography";
@@ -9,7 +10,7 @@ function Home({ theme }) {
   return (
     <div className="home-container" style={{ color: theme.textPrimary }}>
       <div className="home-container-inner">
-        <section className="hero-top">
+        <section className="hero-top home-section">
           <div className="hero-left">
             <div className="hero-intro-row">
               <p className="hero-kicker">Hello, I'm</p>
@@ -51,50 +52,53 @@ function Home({ theme }) {
           </div>
         </section>
 
-        <section className="projects-overview">
+        <section className="projects-overview home-section">
           <Card
-            image={"/card-placeholder.jpg"}
-            alt={"project 1 image"}
-            title={"Testing Card"}
-            description={"Coming soon, relax"}
-            link={"./projects/Project1"}
+            image={ProjectsList[0].image}
+            alt={ProjectsList[0].alt}
+            title={ProjectsList[0].title}
+            type={ProjectsList[0].type}
+            link={`/projects#${ProjectsList[0].id}`}
             theme={theme}
             className="project-card"
           ></Card>
 
           <Card
-            image={"/card-placeholder.jpg"}
-            alt={"project 1 image"}
-            title={"Testing Card"}
-            description={"Coming soon, relax"}
-            link={"./projects/Project2"}
+            image={ProjectsList[1].image}
+            alt={ProjectsList[1].alt}
+            title={ProjectsList[1].title}
+            type={ProjectsList[1].type}
+            link={`/projects#${ProjectsList[1].id}`}
             theme={theme}
             className="project-card"
           ></Card>
 
           <Card
-            image={"/card-placeholder.jpg"}
-            alt={"project 1 image"}
-            title={"Testing Card"}
-            description={"Coming soon, relax"}
-            link={"./projects/Project3"}
+            image={ProjectsList[2].image}
+            alt={ProjectsList[2].alt}
+            title={ProjectsList[2].title}
+            type={ProjectsList[2].type}
+            link={`/projects#${ProjectsList[2].id}`}
             theme={theme}
             className="project-card"
           ></Card>
 
           <Card
-            image={"/card-placeholder.jpg"}
-            alt={"project 1 image"}
-            title={"Testing Card"}
-            description={"Coming soon, relax"}
-            link={"/projects"}
+            image={ProjectsList[3].image}
+            alt={ProjectsList[3].alt}
+            title={ProjectsList[3].title}
+            type={ProjectsList[3].type}
+            link={`/projects#${ProjectsList[3].id}`}
             theme={theme}
             className="project-card"
           ></Card>
 
-          <Link className="see-all-projects" to="/projects">
-            <p>See All Projects</p>
-            <FaArrowRight />
+          <Link
+            className="see-all-projects"
+            to="/projects"
+            style={{ background: theme.elevated }}
+          >
+            All <FaArrowRight />
           </Link>
         </section>
       </div>

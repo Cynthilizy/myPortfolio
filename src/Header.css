@@ -9,10 +9,16 @@
 
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 
   gap: 32px;
   margin: 0 auto;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .profile-photo {
@@ -69,4 +75,14 @@
   transition:
     transform 0.25s ease,
     opacity 0.25s ease;
+}
+
+@media (width < 350px) {
+  .header-btn-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .header-container-inner {
+    gap: 20px;
+  }
 }
