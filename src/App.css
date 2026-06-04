@@ -1,15 +1,23 @@
 body,
 html,
 #root {
+  height: 100%;
+  overflow: hidden;
   margin: 0;
-  padding: 0;
 }
 
 .app {
   display: flex;
   flex-direction: column;
+  height: 100vh;
   justify-content: space-between;
   gap: clamp(24px, 4vh, 48px);
+}
+
+main {
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
 }
 
 .header-light,
