@@ -34,7 +34,7 @@ export const ProjectsList = [
     description: "Robot Control as part of a calibration process.",
     tags: ["Python"],
     github: "https://github.com/Cynthilizy/Robotic_Automation_Process",
-    live: "https://robotic-automation.com",
+    live: "",
     demoType: "none",
   },
 
@@ -48,7 +48,7 @@ export const ProjectsList = [
     tags: ["React", "CSS", "JavaScript"],
     github:
       "https://github.com/Cynthilizy/mini-games/tree/main/src/rock-paper-scissors",
-    live: "https://mini-games-1vfvi2h0x-cynthia-sm-projects.vercel.app",
+    live: "https://mini-games-orpin-nu.vercel.app/",
     demoType: "web",
   },
 
@@ -62,7 +62,7 @@ export const ProjectsList = [
     tags: ["React", "CSS", "JavaScript"],
     github:
       "https://github.com/Cynthilizy/mini-games/tree/main/src/capitals-quiz",
-    live: "https://mini-games-1vfvi2h0x-cynthia-sm-projects.vercel.app",
+    live: "https://mini-games-orpin-nu.vercel.app/",
     demoType: "web",
   },
 
@@ -75,7 +75,7 @@ export const ProjectsList = [
     description: "Quiz game to guess the flags of the world",
     tags: ["React", "CSS", "JavaScript"],
     github: "https://github.com/Cynthilizy/mini-games/tree/main/src/flag-quiz",
-    live: "https://mini-games-1vfvi2h0x-cynthia-sm-projects.vercel.app",
+    live: "https://mini-games-orpin-nu.vercel.app/",
     demoType: "web",
   },
 
@@ -89,7 +89,7 @@ export const ProjectsList = [
     tags: ["React", "CSS", "JavaScript"],
     github:
       "https://github.com/Cynthilizy/mini-games/tree/main/src/snake-master",
-    live: "https://mini-games-1vfvi2h0x-cynthia-sm-projects.vercel.app",
+    live: "https://mini-games-orpin-nu.vercel.app/",
     demoType: "web",
   },
 ];

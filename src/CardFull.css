@@ -1,13 +1,10 @@
 .card-full {
   display: flex;
   flex-direction: column;
-
-  width: 100%;
-  max-width: 300px;
+  width: 300px;
 
   height: 400px;
   border-radius: 16px;
-  overflow: hidden;
 }
 
 .card-full:hover {
@@ -39,13 +36,6 @@
   font-size: 0.85rem;
   line-height: 1.4;
   opacity: 0.85;
-
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
-  -webkit-box-orient: vertical;
-
-  overflow: hidden;
 }
 
 .card-full-body-top {
@@ -112,4 +102,40 @@
 
 .card-full-footer button:hover {
   transform: translateY(-2px);
+}
+@media (width<1440px) {
+  .card-full {
+    width: 250px;
+  }
+}
+@media (width<1100px) {
+  .card-full {
+    width: 230px;
+  }
+}
+
+@media (width<983px) {
+  .card-full {
+    width: 300px;
+  }
+}
+@media (width<949px) {
+  .card-full {
+    width: 280px;
+  }
+}
+@media (width<889px) {
+  .card-full {
+    width: 260px;
+  }
+}
+@media (width<829px) {
+  .card-full {
+    width: 300px;
+  }
+}
+@media (width<625px) {
+  .card-full {
+    width: 330px;
+  }
 }
