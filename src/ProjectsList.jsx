@@ -13,6 +13,20 @@ export const ProjectsList = [
   },
 
   {
+    id: "rock-paper-scissors",
+    title: "Rock Paper Scissors",
+    type: "mini-game",
+    image: "/rock-paper-scissors.jpg",
+    alt: "Hands in the shape of Rock Paper Scissors",
+    description: "Rock Paper Scissors game",
+    tags: ["React", "CSS", "JavaScript"],
+    github:
+      "https://github.com/Cynthilizy/mini-games/tree/main/src/rock-paper-scissors",
+    live: "https://mini-games-orpin-nu.vercel.app/",
+    demoType: "web",
+  },
+
+  {
     id: "calibration-workflow",
     title: "Calibration Workflow",
     type: "case-study",
@@ -26,6 +40,20 @@ export const ProjectsList = [
   },
 
   {
+    id: "snake-master",
+    title: "Snake Master",
+    type: "mini-game",
+    image: "/snake.jpg",
+    alt: "A cartoon snake",
+    description: "Snake grows as long as player can survive",
+    tags: ["React", "CSS", "JavaScript"],
+    github:
+      "https://github.com/Cynthilizy/mini-games/tree/main/src/snake-master",
+    live: "https://mini-games-orpin-nu.vercel.app/",
+    demoType: "web",
+  },
+
+  {
     id: "robotic-automation",
     title: "Robotic Automation",
     type: "case-study",
@@ -36,20 +64,6 @@ export const ProjectsList = [
     github: "https://github.com/Cynthilizy/Robotic_Automation_Process",
     live: "",
     demoType: "none",
-  },
-
-  {
-    id: "rock-paper-scissors",
-    title: "Rock Paper Scissors",
-    type: "mini-game",
-    image: "/rock-paper-scissors.jpg",
-    alt: "Hands in the shape of Rock Paper Scissors",
-    description: "Rock Paper Scissors game",
-    tags: ["React", "CSS", "JavaScript"],
-    github:
-      "https://github.com/Cynthilizy/mini-games/tree/main/src/rock-paper-scissors",
-    live: "https://mini-games-orpin-nu.vercel.app/",
-    demoType: "web",
   },
 
   {
@@ -75,20 +89,6 @@ export const ProjectsList = [
     description: "Quiz game to guess the flags of the world",
     tags: ["React", "CSS", "JavaScript"],
     github: "https://github.com/Cynthilizy/mini-games/tree/main/src/flag-quiz",
-    live: "https://mini-games-orpin-nu.vercel.app/",
-    demoType: "web",
-  },
-
-  {
-    id: "snake-master",
-    title: "Snake Master",
-    type: "mini-game",
-    image: "/snake.jpg",
-    alt: "A cartoon snake",
-    description: "Snake grows as long as player can survive",
-    tags: ["React", "CSS", "JavaScript"],
-    github:
-      "https://github.com/Cynthilizy/mini-games/tree/main/src/snake-master",
     live: "https://mini-games-orpin-nu.vercel.app/",
     demoType: "web",
   },
