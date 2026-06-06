@@ -49,6 +49,17 @@ function Home({ theme }) {
                 Download CV
               </button>
             </a>
+            <Link
+              className="see-all-projects"
+              to="/projects"
+              style={{
+                color: theme.textPrimary,
+                fontSize: typography.size.sm,
+                fontWeight: typography.weight.bold,
+              }}
+            >
+              All Projects <FaArrowRight />
+            </Link>
           </div>
         </section>
 
@@ -92,14 +103,6 @@ function Home({ theme }) {
             theme={theme}
             className="project-card"
           ></Card>
-
-          <Link
-            className="see-all-projects"
-            to="/projects"
-            style={{ background: theme.elevated }}
-          >
-            All <FaArrowRight />
-          </Link>
         </section>
       </div>
     </div>

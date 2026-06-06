@@ -69,7 +69,11 @@
 }
 @media (width<829px) {
   .projects {
-    gap: 0;
     justify-content: space-evenly;
+  }
+}
+@media (width<500px) {
+  .project-type {
+    flex-direction: column;
   }
 }
