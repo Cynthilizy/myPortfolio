@@ -62,7 +62,7 @@
     width: 230px;
   }
 }
-@media (width<500px) {
+@media (width<737px) {
   .card {
     width: 300px;
   }

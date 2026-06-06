@@ -93,7 +93,7 @@
 .card-full-footer button {
   padding: 6px 10px;
   border-radius: 8px;
-  border: none;
+  border: 2px solid grey;
   cursor: pointer;
   font-size: 0.8rem;
 
@@ -137,5 +137,15 @@
 @media (width<625px) {
   .card-full {
     width: 330px;
+  }
+}
+@media (width<350px) {
+  .card-full {
+    width: 300px;
+  }
+}
+@media (width<320) {
+  .card-full {
+    width: 250px;
   }
 }

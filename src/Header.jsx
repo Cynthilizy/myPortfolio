@@ -50,6 +50,22 @@ function Header({ theme, setMode, mode }) {
           >
             Projects
           </Link>
+          <a
+            className="header-download-btn"
+            href="/Cynthia_Monkap_CV.pdf"
+            download
+          >
+            <button
+              className="header-download-btn"
+              style={{
+                color: theme.textPrimary,
+                fontSize: typography.size.sm,
+                fontWeight: typography.weight.bold,
+              }}
+            >
+              Download CV
+            </button>
+          </a>
         </div>
         <button
           className="toggle-btn header-section"

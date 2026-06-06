@@ -35,6 +35,15 @@
   align-items: center;
 }
 
+.header-download-btn {
+  display: none;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+  background-color: inherit;
+  color: inherit;
+}
+
 .link {
   padding: 8px 12px;
   border-radius: 8px;
@@ -77,6 +86,12 @@
     opacity 0.25s ease;
 }
 
+@media (width<737px) {
+  .header-download-btn {
+    display: flex;
+  }
+}
+
 @media (width < 350px) {
   .header-btn-container {
     flex-direction: column;
@@ -84,5 +99,8 @@
   }
   .header-container-inner {
     gap: 20px;
+  }
+  .header-download-btn {
+    display: flex;
   }
 }
