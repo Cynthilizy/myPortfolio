@@ -18,6 +18,9 @@ main {
   flex: 1;
   overflow-y: auto;
   min-height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-light,
