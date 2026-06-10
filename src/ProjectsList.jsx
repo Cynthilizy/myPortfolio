@@ -8,7 +8,7 @@ export const ProjectsList = [
     description: "Personal portfolio built with React.",
     tags: ["React", "CSS", "JavaScript"],
     github: "https://github.com/Cynthilizy/myPortfolio",
-    live: "https://portfolio-website.com",
+    live: "my-portfolio-seven-pink-82.vercel.app",
     demoType: "none",
   },
 
